@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bg
+{
+    position: absolute;
+    z-index: -1;
+}
+
+.bg img
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container .firstpage
+{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #dad0d0;
+}
+
+.firstpage h1
+{
+    text-align: center;
+
+}
+
+.firstpage input
+{
+    height: 2.3rem;
+}
+
+.firstpage input::placeholder
+{
+    font-size: 1.2rem;
+    color: black;
+}
+
+.firstpage button
+{
+    font-size: 1.2rem;
+    height: 2.3rem;
+    background-color: rgb(20, 25, 74);
+    color: white;
+    cursor: pointer;
+    
+}
